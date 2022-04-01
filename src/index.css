@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: "Karla";
+    font-weight: 400;
+    color: white;
+    background-color: #111822;
 }
+
+main {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#container {
+    max-width: 400px;
+    padding: 2rem ;
+    margin: 0 1rem;
+    align-self: center;
+    background: #1F2937;
+    border-radius: 6px; 
+
+}
+
+h1 {
+    font-weight: 800;
+    margin:0 0 .5rem 0;
+}
+
+.green {
+    color: #10B981;
+}
+
+.margin {
+    margin-right: .2rem;    
+}
+
+.generate-btn {
+    margin-top: 1.8rem;  
+    border: none;
+    background: #10B981;
+    color: white;
+    padding: .8rem 1rem;
+    border-radius: 6px; 
+    font-size: 1rem;
+
+}
+
+hr {
+    border: .5px solid #2F3E53;
+    margin: 1.5rem 0;
+}
+
+#options {
+    position: relative;
+}
+
+.input-field {
+    color: #55F991;
+    border: 0;
+    background: #273549;
+    border-radius: 6px;
+    padding: .6rem .8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1rem;
+
+}
+
+.input-field-btn {
+    color: #55F991;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 38%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+.input-field-btn:focus, .input-field-btn:active{
+    outline: none;
+    top: 38%;
+    transform: translateY(-50%);
+}
+
