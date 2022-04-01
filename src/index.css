@@ -53,7 +53,10 @@ h1 {
     padding: .8rem 1rem;
     border-radius: 6px; 
     font-size: 1rem;
+}
 
+.generate-btn:hover {
+  cursor: pointer;
 }
 
 hr {
@@ -74,7 +77,6 @@ hr {
     margin-bottom: 1rem;
     width: 100%;
     font-size: 1rem;
-
 }
 
 .input-field-btn {
